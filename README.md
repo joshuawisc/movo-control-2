@@ -1,5 +1,7 @@
 # Movo Control ROS Package
 
+ROS Package and supplementary files for controlling a [Kinova Movo](https://www.kinovarobotics.com/sites/default/files/OP-03_2019-05_R01.pdf) robot.
+
 # Contents
 1. [Files Included](#1-files-included)
 2. [Requirements](#2-requirements)
