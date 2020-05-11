@@ -25,7 +25,7 @@
 
 # 3. Setup
 * Setup RelaxedIK with Movo using given [Config](./Config) file
-* Add [controller_publisher_dual.py](./controller_publisher_dual.py) into mimicry_control/src/bin
+* Add [controller_publisher_dual.py](./controller_publisher_dual.py) into *mimicry_control/src/bin*
 
 # 4. Mimicry Control
 
@@ -38,9 +38,9 @@ Movo to the Windows machine
 
 Run / Launch the following ROS nodes -
 
-movo_mimicry.launch : for 2 Vive controllers  
-OR
-movo_mimicry_single.launch : for 1 Vive controller
+`movo_mimicry.launch` : for 2 Vive controllers  
+OR  
+`movo_mimicry_single.launch` : for 1 Vive controller
 
 
 ### Windows (Unity):
@@ -60,9 +60,9 @@ Run / Launch the following ROS nodes -
 * `relaxed_ik_julia.launch`
 
 #### Mimicry Control nodes
-* `xbox_control.py` (movo_mimicry)
-* `xbox_to_ros.py` (movo_mimicry)
-* `movo_vel_controller.py` (movo_mimicry)
+* `xbox_control.py`
+* `xbox_to_ros.py`
+* `movo_vel_controller.py`
 
 # 6. Latency System
 
@@ -71,8 +71,8 @@ Run / Launch the following ROS nodes -
 Run / Launch the following ROS nodes -
 
 #### RelaxedIK nodes
-* load_info_file.py
-* relaxed_ik_julia.launch
+* `load_info_file.py`
+* `relaxed_ik_julia.launch`
 
 #### Mimicry Control nodes
-* movo_latency.launch
+* `movo_latency.launch`
