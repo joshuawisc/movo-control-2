@@ -22,13 +22,13 @@
 * controller_publisher_dual.py - Mimicry control file
 
 # 2. Requirements
-* RelaxedIK [link]
+* [RelaxedIK](https://github.com/uwgraphics/relaxed_ik)
 * mimicry_control ROS package
-* Movo description [link]
+* [Movo description](https://github.com/Kinovarobotics/kinova-movo)
 
 # 3. Setup
 * Setup RelaxedIK with Movo using given Config file
-* Add *controller_publisher_dual.py* into mimicry_control/src/bin
+* Add [controller_publisher_dual.py](../controller_publisher_dual.py) into mimicry_control/src/bin
 
 # 4. Mimicry Control
 
