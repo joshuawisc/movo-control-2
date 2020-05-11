@@ -24,8 +24,8 @@
 * [Movo description](https://github.com/Kinovarobotics/kinova-movo/tree/master/movo_common/movo_description)
 
 # 3. Setup
-* Setup RelaxedIK with Movo using given Config file
-* Add [controller_publisher_dual.py](../controller_publisher_dual.py) into mimicry_control/src/bin
+* Setup RelaxedIK with Movo using given [Config](./Config) file
+* Add [controller_publisher_dual.py](./controller_publisher_dual.py) into mimicry_control/src/bin
 
 # 4. Mimicry Control
 
@@ -56,13 +56,13 @@ movo_mimicry_single.launch : for 1 Vive controller
 Run / Launch the following ROS nodes -
 
 #### RelaxedIK nodes
-* load_info_file.py
-* relaxed_ik_julia.launch
+* `load_info_file.py`
+* `relaxed_ik_julia.launch`
 
 #### Mimicry Control nodes
-* xbox_control.py (movo_mimicry):
-* xbox_to_ros.py (movo_mimicry):
-* movo_vel_controller.py (movo_mimicry): Sends relaxedIK solutions to Movo arm controllers
+* `xbox_control.py` (movo_mimicry)
+* `xbox_to_ros.py` (movo_mimicry)
+* `movo_vel_controller.py` (movo_mimicry)
 
 # 6. Latency System
 
