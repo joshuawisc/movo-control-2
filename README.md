@@ -47,9 +47,9 @@ OR
 
 ### Windows (Unity):
 1. Open vive-teleop-movo project
-2. Set IP on broadcaster game object to 10.66.171.1
+2. Set IP on broadcaster game object to `10.66.171.1`
 3. Make sure one or both controllers are on and connected
-4. Click play
+4. Click play in Unity
 
 # 5. Xbox Control
 
