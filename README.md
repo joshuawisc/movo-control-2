@@ -1,4 +1,4 @@
-# Movo Mimicry Control ROS Package
+# Movo Control ROS Package
 
 # Contents
 1. [Files Included](#1-files-included)
@@ -29,6 +29,8 @@
 
 # 4. Mimicry Control
 
+Control both arms of the Movo and the base using Vive controllers.
+
 ## Usage
 
 Connect an ethernet cable from the back of the 
@@ -51,6 +53,8 @@ OR
 
 # 5. Xbox Control
 
+Control both arms of the Movo using an Xbox One controller.
+
 ## Usage
 
 Run / Launch the following ROS nodes -
@@ -65,6 +69,8 @@ Run / Launch the following ROS nodes -
 * `movo_vel_controller.py`
 
 # 6. Latency System
+
+Add latency into the RelaxedIK Movo control system.
 
 ## Usage
 
