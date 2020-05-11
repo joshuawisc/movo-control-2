@@ -1,12 +1,12 @@
 # Movo Mimicry Control ROS Package
 
 # Contents
-1. [Files Included](#1.-files-included)
-2. [Requirements](#2.-requirements)
-3. [Setup](#3.-setup)
-4. [Mimicry Control](#4.-mimicry-control)
-5. [Xbox Control](#5.-xbox-control)
-6. [Latency System](#6.-latency-system)
+1. [Files Included](#1-files-included)
+2. [Requirements](#2-requirements)
+3. [Setup](#3-setup)
+4. [Mimicry Control](#4-mimicry-control)
+5. [Xbox Control](#5-xbox-control)
+6. [Latency System](#6-latency-system)
 
 # 1. Files included
 
