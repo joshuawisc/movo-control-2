@@ -72,7 +72,13 @@ Run / Launch the following ROS nodes -
 
 # 6. Latency System
 
-Add latency into the RelaxedIK Movo control system.
+Add latency into the RelaxedIK Movo control system, used along with
+[Movo simulation](https://github.com/joshuawisc/movo-sim-scene) 
+to mimic real life performance.
+
+How the nodes interact (with a simulated Movo):
+![Rosgraph](./images/rosgraph.png)
+
 
 ## Usage
 
